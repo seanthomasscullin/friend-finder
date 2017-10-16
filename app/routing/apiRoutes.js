@@ -34,6 +34,6 @@ module.exports = function(app) {
 
 		friends.push(userData);
 
-		res.json(bestMatch);
+		res.json(topMatch);
 	});
 }
